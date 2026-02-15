@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - NEXUS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="auth-card signup-card">
+            <div class="logo">
+                <h1>NEXUS</h1>
+                <p class="tagline">AI-Driven Knowledge Exchange</p>
+            </div>
+            
+            <form id="signupForm" class="auth-form">
+                <h2>Create Account</h2>
+                
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required 
+                           placeholder="Min 8 chars, uppercase, lowercase, number">
+                    <small>Must contain at least 8 characters with uppercase, lowercase, and number</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Enter your phone number">
+                </div>
+                
+                <div class="form-group">
+                    <label for="university">University</label>
+                    <input type="text" id="university" name="university" required placeholder="Enter your university">
+                </div>
+                
+                <div class="form-group">
+                    <label for="skillsKnown">Skills You Know</label>
+                    <input type="text" id="skillsKnown" name="skillsKnown" required 
+                           placeholder="e.g., Python, JavaScript, Machine Learning (comma separated)">
+                    <small>Enter skills separated by commas</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="skillsToImprove">Skills You Want to Improve</label>
+                    <input type="text" id="skillsToImprove" name="skillsToImprove" required 
+                           placeholder="e.g., Data Science, Web Development (comma separated)">
+                    <small>Enter skills separated by commas</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="teachingComfort">Are You Comfortable Teaching?</label>
+                    <select id="teachingComfort" name="teachingComfort" required>
+                        <option value="">Select an option</option>
+                        <option value="YES">Yes</option>
+                        <option value="NOT_SURE">Not Sure</option>
+                        <option value="NOT_NOW">Not Now</option>
+                    </select>
+                </div>
+                
+                <div class="form-group" id="teachingLevelGroup" style="display: none;">
+                    <label for="teachingLevel">Teaching Level</label>
+                    <select id="teachingLevel" name="teachingLevel">
+                        <option value="">Select level</option>
+                        <option value="BEGINNER">Beginner</option>
+                        <option value="INTERMEDIATE">Intermediate</option>
+                        <option value="ADVANCED">Advanced</option>
+                        <option value="EXPERT">Expert</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+                
+                <div class="form-footer">
+                    <p>Already have an account? <a href="login.html" class="link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div id="notification" class="notification"></div>
+    
+    <script src="js/auth.js"></script>
+</body>
+</html>

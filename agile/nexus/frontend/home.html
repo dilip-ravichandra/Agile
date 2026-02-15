@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - NEXUS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="home-body">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>NEXUS</h1>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#" id="profileTab">Profile</a>
+                <a href="#" id="teachTab">Do You Want to Teach?</a>
+                <span class="username-display" id="usernameDisplay">Loading...</span>
+                <button id="logoutBtn" class="btn btn-logout">Logout</button>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="main-content">
+        <div class="welcome-section">
+            <h2 class="welcome-title">Welcome, <span id="welcomeName">User</span>!</h2>
+            <p class="welcome-subtitle">Your AI-Driven Knowledge Exchange Platform</p>
+        </div>
+        
+        <div class="dashboard">
+            <div class="token-card">
+                <div class="token-icon">🪙</div>
+                <div class="token-info">
+                    <h3>Your Token Balance</h3>
+                    <div class="token-amount" id="tokenBalance">Loading...</div>
+                    <p class="token-description">Use tokens to access premium content and services</p>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h4>Skills Known</h4>
+                    <div class="skill-tags" id="skillsKnown">Loading...</div>
+                </div>
+                
+                <div class="stat-card">
+                    <h4>Skills to Improve</h4>
+                    <div class="skill-tags" id="skillsToImprove">Loading...</div>
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3>About NEXUS</h3>
+                <p>NEXUS is your platform for collaborative learning where every student can both teach and learn. 
+                   Share your knowledge, earn tokens, and access premium educational content from peers around the world.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <span class="feature-icon">📚</span>
+                        <span>Learn from Peers</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎓</span>
+                        <span>Share Knowledge</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🪙</span>
+                        <span>Earn Tokens</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🤝</span>
+                        <span>Build Community</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div id="notification" class="notification"></div>
+    
+    <script src="js/home.js"></script>
+</body>
+</html>
