@@ -1,203 +1,291 @@
-# 🚀 NEXUS - AI-Driven Knowledge Exchange Platform
-
 <div align="center">
 
-![NEXUS Banner](https://img.shields.io/badge/NEXUS-Knowledge%20Exchange-blueviolet?style=for-the-badge)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-3.0.0-green?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+# ⚡ NEXUS
 
-**An innovative token-based knowledge exchange platform where every student can both teach and learn.**
+### 🌐 AI-Driven Token-Based Knowledge Exchange Platform
 
-[Features](#-features) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [API Documentation](#-api-documentation) • [Screenshots](#-screenshots)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Where+Every+Student+Can+Teach+%26+Learn;Token-Based+Knowledge+Exchange;Peer-to-Peer+Learning+Ecosystem;Built+for+the+Future+of+Education" alt="Typing SVG" />
+
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+
+<br/>
+
+<img src="https://img.shields.io/github/stars/dilip-ravichandra/Agile?style=social" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/dilip-ravichandra/Agile?style=social" alt="Forks"/>
+<img src="https://img.shields.io/github/issues/dilip-ravichandra/Agile?color=yellow" alt="Issues"/>
+<img src="https://img.shields.io/github/license/dilip-ravichandra/Agile?color=green" alt="License"/>
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/>
+
+<br/><br/>
+
+[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [📖 Documentation](#-api-documentation) • [🤝 Contributing](#-contributing)
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
 </div>
 
 ---
 
-## 📖 About
+## 🎯 What is NEXUS?
 
-NEXUS is a revolutionary educational platform designed for Agile PBL (Project-Based Learning) that creates a collaborative ecosystem where students can:
-- 🎓 **Share Knowledge** - Teach what you know to peers
-- 📚 **Learn from Others** - Access quality content from fellow students
-- 🪙 **Earn Tokens** - Get rewarded for teaching and contributing
-- 🤝 **Build Community** - Connect with learners worldwide
+<table>
+<tr>
+<td width="50%">
+
+**NEXUS** is a revolutionary peer-to-peer learning platform that transforms how students share and acquire knowledge.
+
+🎓 **Teach What You Know** — Share your expertise with peers
+
+📚 **Learn What You Need** — Access quality content from fellow students
+
+🪙 **Earn Tokens** — Get rewarded for your contributions
+
+🤝 **Build Community** — Connect with learners worldwide
+
+</td>
+<td width="50%">
+
+```
+    ╔══════════════════════════════╗
+    ║                              ║
+    ║     🎓  STUDENT A           ║
+    ║         │                    ║
+    ║    Teaches Python            ║
+    ║         │                    ║
+    ║         ▼                    ║
+    ║    🪙 Earns Tokens           ║
+    ║         │                    ║
+    ║         ▼                    ║
+    ║    📚 Learns ML              ║
+    ║         │                    ║
+    ║         ▼                    ║
+    ║     🎓  STUDENT B           ║
+    ║                              ║
+    ╚══════════════════════════════╝
+```
+
+</td>
+</tr>
+</table>
+
+---
 
 ## ✨ Features
 
-### 🔐 Authentication System
-- **Secure Signup** with comprehensive profile creation
-- **JWT-based Authentication** with HTTP-only cookies
-- **Password Security** using bcrypt hashing
-- **Account Protection** with login attempt limits (5 attempts)
-- **Forgot Password** with OTP-based recovery via email
-- **Session Management** with automatic token expiration
+<div align="center">
 
-### 👤 User Management
-- Profile creation with skills tracking
-- Teaching comfort level assessment
-- Token-based wallet system
-- Starter tokens (3) on signup
-- Skill mapping (known vs. to-improve)
+| 🔐 **Authentication** | 👤 **User Management** | 🎨 **Modern UI** |
+|:---:|:---:|:---:|
+| JWT + HTTP-only Cookies | Token Wallet System | Glassmorphism Design |
+| Bcrypt Password Hashing | Skills Tracking | Responsive Layout |
+| OTP Password Recovery | Profile Management | Smooth Animations |
+| Account Lock Protection | Teaching Preferences | Gradient Themes |
 
-### 🏠 Dashboard
-- Personalized welcome screen
-- Real-time token balance display
-- Skills visualization
-- Teaching preference tracking
-- Responsive navigation
+</div>
 
-### 🔒 Security Features
-- **JWT Tokens** stored in HTTP-only cookies
-- **Bcrypt Password Hashing** with salt
-- **Environment Variables** for sensitive data
-- **CORS Protection** with credential support
-- **Input Validation** on all endpoints
-- **Unique Email Enforcement** via MongoDB index
-- **OTP Expiration** (5 minutes, 3 attempts max)
+### 🔐 Secure Authentication System
 
-## 🛠 Tech Stack
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│   📧 Email + Password ──► 🔒 Bcrypt Hash ──► ✅ JWT Token      │
+│                                                                 │
+│   🔑 Features:                                                  │
+│   • HTTP-only cookie storage (XSS protection)                  │
+│   • 5 login attempts before account lock                       │
+│   • 6-digit OTP for password recovery                          │
+│   • 5-minute OTP expiration                                    │
+│   • Automatic session management                               │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-### Backend
-| Technology | Purpose |
-|------------|---------|
-| **Python 3.9+** | Core programming language |
-| **Flask 3.0.0** | Web framework |
-| **PyMongo 4.6.1** | MongoDB driver |
-| **PyJWT 2.8.0** | JWT token generation |
-| **Bcrypt 4.1.2** | Password hashing |
-| **Flask-CORS 4.0.0** | Cross-origin resource sharing |
-| **python-dotenv 1.0.0** | Environment variable management |
+### 🪙 Token-Based Economy
 
-### Frontend
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with gradients & glassmorphism
-- **JavaScript (ES6+)** - Client-side logic & API communication
+<table>
+<tr>
+<td align="center" width="33%">
 
-### Database
-- **MongoDB** - NoSQL database for flexible schema
-  - Collections: `users`, `wallets`, `password_resets`
+**🎁 Starter Bonus**
+```
++3 Tokens
+on Signup
+```
 
-## 📂 Project Structure
+</td>
+<td align="center" width="33%">
+
+**📚 Teaching Rewards**
+```
+Earn tokens by
+sharing knowledge
+```
+
+</td>
+<td align="center" width="33%">
+
+**💡 Learning Access**
+```
+Spend tokens to
+access content
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Layer | Technology | Purpose |
+|:---:|:---|:---|
+| 🎨 **Frontend** | HTML5, CSS3, JavaScript | Modern responsive UI with glassmorphism |
+| ⚙️ **Backend** | Flask 3.0.0, Python 3.9+ | RESTful API server |
+| 🔐 **Security** | JWT, Bcrypt | Authentication & password hashing |
+| 🗄️ **Database** | MongoDB | NoSQL document storage |
+| 📧 **Email** | SMTP (Gmail) | OTP delivery for password reset |
+
+</div>
+
+---
+
+## 📁 Project Structure
 
 ```
 nexus/
 │
-├── backend/
-│   ├── app.py                 # Flask application entry point
-│   ├── config.py              # Configuration management
-│   ├── auth_routes.py         # Authentication endpoints
-│   ├── user_routes.py         # User management endpoints
-│   ├── models.py              # Database models & operations
+├── 🔧 backend/
+│   ├── app.py                 # 🚀 Flask entry point
+│   ├── config.py              # ⚙️ Configuration
+│   ├── auth_routes.py         # 🔐 Auth endpoints
+│   ├── user_routes.py         # 👤 User endpoints
+│   ├── models.py              # 🗄️ Database models
 │   ├── utils/
-│   │   ├── jwt_utils.py       # JWT token handling
-│   │   ├── email_utils.py     # Email/OTP delivery
-│   │   └── password_utils.py  # Password hashing utilities
-│   ├── .env                   # Environment variables
-│   └── requirements.txt       # Python dependencies
+│   │   ├── jwt_utils.py       # 🔑 JWT handling
+│   │   ├── email_utils.py     # 📧 Email/OTP
+│   │   └── password_utils.py  # 🔒 Password hashing
+│   ├── .env                   # 🔐 Environment vars
+│   └── requirements.txt       # 📦 Dependencies
 │
-├── frontend/
-│   ├── login.html             # Login page
-│   ├── signup.html            # Signup page
-│   ├── home.html              # User dashboard
-│   ├── css/
-│   │   └── styles.css         # Global styles
-│   └── js/
-│       ├── auth.js            # Authentication logic
-│       └── home.js            # Dashboard logic
-│
-└── README.md                  # This file
+└── 🎨 frontend/
+    ├── login.html             # 🔐 Login page
+    ├── signup.html            # 📝 Signup page
+    ├── home.html              # 🏠 Dashboard
+    ├── css/
+    │   └── styles.css         # 🎨 Styling
+    └── js/
+        ├── auth.js            # 🔐 Auth logic
+        └── home.js            # 🏠 Dashboard logic
 ```
 
-## 🚀 Installation
+---
+
+## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.9 or higher
-- MongoDB installed and running
-- Git (for cloning)
 
-### Step 1: Clone Repository
-```bash
-git clone https://github.com/yourusername/agile.git
-cd agile/nexus
-```
+<table>
+<tr>
+<td>
 
-### Step 2: Install MongoDB
-**Windows:**
-```bash
-# Download from: https://www.mongodb.com/try/download/community
-# Install and start MongoDB service
-```
+**Required Software:**
+- ✅ Python 3.9+
+- ✅ MongoDB
+- ✅ Git
 
-**macOS:**
-```bash
-brew tap mongodb/brew
-brew install mongodb-community
-brew services start mongodb-community
-```
+</td>
+<td>
 
-**Linux:**
-```bash
-sudo apt-get install mongodb
-sudo systemctl start mongodb
-```
+**Recommended:**
+- 📧 Gmail account (for OTP)
+- 💻 VS Code editor
 
-### Step 3: Backend Setup
+</td>
+</tr>
+</table>
+
+### Installation
+
 ```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/dilip-ravichandra/Agile.git
+cd Agile/nexus
+
+# 2️⃣ Install Python dependencies
 cd backend
-
-# Install dependencies
 pip install -r requirements.txt
+
+# 3️⃣ Configure environment
+# Edit .env file with your credentials
+
+# 4️⃣ Start MongoDB (if not running)
+# Windows: Start MongoDB service
+# Mac: brew services start mongodb-community
+# Linux: sudo systemctl start mongodb
+
+# 5️⃣ Run the application
+python app.py
 ```
 
-### Step 4: Configure Environment
-Edit `backend/.env`:
+### 🌐 Access the Application
+
+| Page | URL |
+|:---|:---|
+| 🔐 **Login** | http://localhost:5000/login.html |
+| 📝 **Signup** | http://localhost:5000/signup.html |
+| 🏠 **Dashboard** | http://localhost:5000/home.html |
+
+---
+
+## ⚙️ Configuration
+
+Create a `.env` file in the `backend/` directory:
+
 ```env
+# 🗄️ MongoDB Connection
 MONGO_URI=mongodb://localhost:27017/
+
+# 🔐 JWT Secret (change in production!)
 JWT_SECRET=your_super_secret_key_here
+
+# 📧 Email Configuration (for OTP)
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_gmail_app_password
 ```
 
-**📧 Gmail App Password Setup:**
+<details>
+<summary>📧 <b>How to get Gmail App Password</b></summary>
+
 1. Go to [Google Account Settings](https://myaccount.google.com/)
-2. Security → 2-Step Verification → App Passwords
-3. Generate password for "Mail"
-4. Copy and paste into `EMAIL_PASS`
+2. Navigate to **Security** → **2-Step Verification**
+3. Scroll to **App Passwords**
+4. Generate a new password for "Mail"
+5. Copy and paste into `EMAIL_PASS`
 
-### Step 5: Run Application
-```bash
-cd backend
-python app.py
-```
+</details>
 
-Server will start at: **http://localhost:5000**
+---
 
-## 🎮 Usage
+## 📖 API Documentation
 
-### Access Points
-| Page | URL | Description |
-|------|-----|-------------|
-| **Login** | http://localhost:5000/login.html | User login |
-| **Signup** | http://localhost:5000/signup.html | Create account |
-| **Home** | http://localhost:5000/home.html | User dashboard |
+### 🔐 Authentication Endpoints
 
-### User Flow
-1. **Sign Up** → Create account with email, password, skills
-2. **Receive Tokens** → Get 3 starter tokens automatically
-3. **Login** → Authenticate with credentials
-4. **Dashboard** → View profile, tokens, skills
-5. **Logout** → Secure session termination
+<details>
+<summary><b>POST</b> <code>/api/auth/signup</code> — Create Account</summary>
 
-## 📡 API Documentation
-
-### Authentication Endpoints
-
-#### POST `/api/auth/signup`
-Create new user account.
-
-**Request Body:**
+**Request:**
 ```json
 {
   "fullName": "John Doe",
@@ -205,8 +293,8 @@ Create new user account.
   "password": "SecurePass123",
   "phoneNumber": "+1234567890",
   "university": "MIT",
-  "skillsKnown": "Python, JavaScript, React",
-  "skillsToImprove": "Machine Learning, DevOps",
+  "skillsKnown": "Python, JavaScript",
+  "skillsToImprove": "Machine Learning",
   "teachingComfort": "YES",
   "teachingLevel": "INTERMEDIATE"
 }
@@ -219,11 +307,12 @@ Create new user account.
   "userId": "507f1f77bcf86cd799439011"
 }
 ```
+</details>
 
-#### POST `/api/auth/login`
-Authenticate user and create session.
+<details>
+<summary><b>POST</b> <code>/api/auth/login</code> — Login</summary>
 
-**Request Body:**
+**Request:**
 ```json
 {
   "email": "john@example.com",
@@ -242,9 +331,10 @@ Authenticate user and create session.
   }
 }
 ```
+</details>
 
-#### POST `/api/auth/logout`
-Terminate user session.
+<details>
+<summary><b>POST</b> <code>/api/auth/logout</code> — Logout</summary>
 
 **Response:** `200 OK`
 ```json
@@ -252,11 +342,12 @@ Terminate user session.
   "message": "Logout successful"
 }
 ```
+</details>
 
-#### POST `/api/auth/forgot-password`
-Request password reset OTP.
+<details>
+<summary><b>POST</b> <code>/api/auth/forgot-password</code> — Request OTP</summary>
 
-**Request Body:**
+**Request:**
 ```json
 {
   "email": "john@example.com"
@@ -269,22 +360,12 @@ Request password reset OTP.
   "message": "OTP sent to your email"
 }
 ```
+</details>
 
-#### POST `/api/auth/verify-otp`
-Verify OTP code.
+<details>
+<summary><b>POST</b> <code>/api/auth/reset-password</code> — Reset Password</summary>
 
-**Request Body:**
-```json
-{
-  "email": "john@example.com",
-  "otp": "123456"
-}
-```
-
-#### POST `/api/auth/reset-password`
-Reset password with OTP.
-
-**Request Body:**
+**Request:**
 ```json
 {
   "email": "john@example.com",
@@ -293,10 +374,18 @@ Reset password with OTP.
 }
 ```
 
-### User Endpoints
+**Response:** `200 OK`
+```json
+{
+  "message": "Password reset successful"
+}
+```
+</details>
 
-#### GET `/api/user/profile`
-Get authenticated user profile (requires JWT).
+### 👤 User Endpoints
+
+<details>
+<summary><b>GET</b> <code>/api/user/profile</code> — Get Profile</summary>
 
 **Response:** `200 OK`
 ```json
@@ -305,147 +394,145 @@ Get authenticated user profile (requires JWT).
     "id": "507f1f77bcf86cd799439011",
     "fullName": "John Doe",
     "email": "john@example.com",
-    "phoneNumber": "+1234567890",
-    "university": "MIT",
-    "skillsKnown": ["Python", "JavaScript", "React"],
-    "skillsToImprove": ["Machine Learning", "DevOps"],
-    "teachingComfort": "YES",
-    "teachingLevel": "INTERMEDIATE",
-    "tokens": 3
+    "tokens": 3,
+    "skillsKnown": ["Python", "JavaScript"],
+    "skillsToImprove": ["Machine Learning"]
   }
 }
 ```
+</details>
 
-#### GET `/api/user/tokens`
-Get user token balance (requires JWT).
-
-**Response:** `200 OK`
-```json
-{
-  "tokens": 3
-}
-```
-
-## 🎨 Screenshots
-
-### Login Page
-- Clean glassmorphism design
-- Forgot password modal
-- Smooth animations
-
-### Signup Page
-- Comprehensive profile creation
-- Dynamic teaching level selection
-- Real-time validation
-
-### Dashboard
-- Welcome section with username
-- Token balance display
-- Skills visualization
-- Responsive navigation bar
-
-## 🔐 Security Best Practices
-
-✅ **Passwords** - Bcrypt hashed with auto-generated salt  
-✅ **JWT Tokens** - Stored in HTTP-only cookies (not localStorage)  
-✅ **Environment Variables** - Sensitive data in `.env` file  
-✅ **Input Validation** - Email, password strength checks  
-✅ **Account Protection** - Login attempt limits & locking  
-✅ **CORS** - Configured for specific origins  
-✅ **MongoDB** - Unique indexes on sensitive fields  
-✅ **OTP** - Time-limited (5 min) with attempt limits  
+---
 
 ## 🗄️ Database Schema
 
-### Users Collection
 ```javascript
+// 👤 Users Collection
 {
   _id: ObjectId,
   fullName: String,
-  email: String (unique, indexed),
-  password: String (bcrypt hashed),
+  email: String,        // unique index
+  password: String,     // bcrypt hashed
   phoneNumber: String,
   university: String,
-  skillsKnown: Array[String],
-  skillsToImprove: Array[String],
-  teachingComfort: String (YES|NOT_SURE|NOT_NOW),
-  teachingLevel: String (BEGINNER|INTERMEDIATE|ADVANCED|EXPERT),
+  skillsKnown: [String],
+  skillsToImprove: [String],
+  teachingComfort: "YES" | "NOT_SURE" | "NOT_NOW",
+  teachingLevel: "BEGINNER" | "INTERMEDIATE" | "ADVANCED" | "EXPERT",
   loginAttempts: Number,
   accountLocked: Boolean,
   createdAt: DateTime
 }
-```
 
-### Wallets Collection
-```javascript
+// 🪙 Wallets Collection
 {
   _id: ObjectId,
-  userId: ObjectId (ref: Users),
-  tokens: Number,
+  userId: ObjectId,
+  tokens: Number,       // starts at 3
   createdAt: DateTime
 }
-```
 
-### Password Resets Collection
-```javascript
+// 🔑 Password Resets Collection
 {
   _id: ObjectId,
   email: String,
-  otp: String (bcrypt hashed),
-  expiry: DateTime,
-  attempts: Number,
+  otp: String,          // bcrypt hashed
+  expiry: DateTime,     // 5 minutes
+  attempts: Number,     // max 3
   createdAt: DateTime
 }
 ```
 
-## 🌟 Future Enhancements
+---
 
-- [ ] **Content Marketplace** - Buy/sell courses with tokens
-- [ ] **Live Sessions** - Real-time video teaching
-- [ ] **AI Recommendations** - Smart skill matching
-- [ ] **Reputation System** - Teacher ratings & reviews
-- [ ] **Badges & Achievements** - Gamification elements
-- [ ] **Mobile App** - React Native implementation
-- [ ] **Social Features** - Follow, chat, groups
-- [ ] **Analytics Dashboard** - Learning insights
+## 🔒 Security Features
+
+<div align="center">
+
+| Feature | Implementation | Protection |
+|:---|:---|:---|
+| 🔐 Password Storage | Bcrypt + Salt | Rainbow table attacks |
+| 🎫 Session Token | JWT in HTTP-only cookie | XSS attacks |
+| 🚫 Brute Force | 5 attempt limit + lock | Password guessing |
+| ⏱️ OTP Expiry | 5 min + 3 attempts | Unauthorized reset |
+| 🌐 CORS | Configured origins | Cross-origin attacks |
+| ✅ Input Validation | Regex + sanitization | Injection attacks |
+
+</div>
+
+---
+
+## 🛣️ Roadmap
+
+<div align="center">
+
+| Status | Feature |
+|:---:|:---|
+| ✅ | Authentication System |
+| ✅ | Token Wallet |
+| ✅ | User Dashboard |
+| 🚧 | Content Marketplace |
+| 📋 | Live Video Sessions |
+| 📋 | AI Skill Matching |
+| 📋 | Reputation System |
+| 📋 | Mobile App |
+
+</div>
+
+---
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
+Contributions are welcome! Here's how you can help:
 
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** changes (`git commit -m 'Add AmazingFeature'`)
-4. **Push** to branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
+```bash
+# 1️⃣ Fork the repository
 
-## 📝 License
+# 2️⃣ Create your feature branch
+git checkout -b feature/AmazingFeature
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+# 3️⃣ Commit your changes
+git commit -m '✨ Add AmazingFeature'
 
-## 👥 Team
+# 4️⃣ Push to the branch
+git push origin feature/AmazingFeature
 
-**Agile PBL Project**  
-Developed as part of Project-Based Learning initiative
+# 5️⃣ Open a Pull Request
+```
 
-## 📧 Contact
+---
 
-For questions or support, please open an issue or contact:
-- Email: diliprbtech24@rvu.edu.in
+## 👨‍💻 Author
 
-## 🙏 Acknowledgments
+<div align="center">
 
-- Flask documentation and community
-- MongoDB documentation
-- Bootstrap icons and design inspiration
-- RV University for project support
+**Dilip Ravichandra**
+
+[![Email](https://img.shields.io/badge/Email-diliprbtech24%40rvu.edu.in-red?style=for-the-badge&logo=gmail)](mailto:diliprbtech24@rvu.edu.in)
+[![GitHub](https://img.shields.io/badge/GitHub-dilip--ravichandra-black?style=for-the-badge&logo=github)](https://github.com/dilip-ravichandra)
+
+*Built with ❤️ at RV University*
+
+**Agile PBL Project — 2026**
+
+</div>
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**⭐ Star this repo if you find it useful!**
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
-Made with ❤️ for collaborative learning
+### ⭐ If you found this helpful, please star the repository!
+
+<br/>
+
+**[⬆ Back to Top](#-nexus)**
 
 </div>
